@@ -1,22 +1,16 @@
 #include <stdio.h>
+#include <string.h>
+#include <math.h>
 #include "headers/userReg.h"
 #include "headers/o-userReg.h"
 #include "headers/runningSum.h"
 #include "headers/fizzbuzz.h"
 #include "headers/arrays.h"
+#include "headers/recursion.h"
 
 int main(void) {
 
-  int age = 19;
-  int* ptr = &age;
+  runningSum();
 
-  printf("%p\n", ptr);
-  printf("%d\n", *ptr);
-
-  char name[] = "Melvin";
-  char* ptr_str = name;
-
-  printf("\n%s\n", name);
-  printf("%c\n", *ptr_str);
-  
 }
+
